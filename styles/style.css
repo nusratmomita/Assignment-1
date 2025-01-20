@@ -344,3 +344,17 @@ span{
     background-repeat: no-repeat;
     background-position: 20px 40px;
 }
+
+/*Footer style*/
+footer{
+    background-color: #FFFFFF;
+    padding: 4px 40px ;
+}
+.footer-tittle{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.icons{
+    padding: 10px 665px ;
+}
