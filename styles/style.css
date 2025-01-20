@@ -343,8 +343,16 @@ span{
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 20px 40px;
+    color: #646262;
 }
-
+.drMY h3{
+    color: black;
+}
+.drMY h4{
+    font-size: 16px;
+    font-weight: normal;
+    color: #646262;
+}
 /*Footer style*/
 footer{
     background-color: #FFFFFF;
