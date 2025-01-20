@@ -71,4 +71,106 @@
     margin: 80px;
 }
 
-
+/*Future vision styles*/
+.vision{
+    margin: 60px 160px;
+}
+.vision h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.vision-details{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -24px;
+    opacity: 70%;
+    color: #0E0E0E;
+}
+.vision-cards{
+    display: flex;
+    gap: 20px;
+}
+/* DT-card */
+.DT-card{
+    background-color: #548ff54f;
+    border-radius: 16px;
+    width: 380px;
+    height: 300px;
+    line-height: 20px;
+}
+.DT-card img{
+    margin: 32px 315px 0px 40px;
+}
+.DT-card h4{
+    margin: 16px 10px 0px 40px;
+}
+.DT-card p{
+    margin: 16px 10px 0px 40px;
+}
+.DT-card button{
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    margin: 16px 10px 0px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+/* GE card */
+.GE-card{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    width: 380px;
+    height: 300px;
+    line-height: 20px;
+}
+.GE-card img{
+    margin: 32px 315px 0px 40px;
+}
+.GE-card h4{
+    margin: 16px 10px 0px 40px;
+}
+.GE-card p{
+    margin: 16px 10px 0px 40px;
+}
+.GE-card button{
+    background-color: #09A15C;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    margin: 16px 10px 0px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+/* MI card */
+.MI-card{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    width: 380px;
+    height: 300px;
+    line-height: 20px;
+}
+.MI-card img{
+    margin: 32px 315px 0px 40px;
+}
+.MI-card h4{
+    margin: 16px 10px 0px 40px;
+}
+.MI-card p{
+    margin: 16px 10px 0px 40px;
+}
+.MI-card button{
+    background-color: #FFC239;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    margin: 16px 10px 0px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
