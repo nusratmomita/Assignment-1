@@ -10,7 +10,12 @@ body{
     font-variation-settings:
       "wdth" 100;
 }
-  
+
+/*Shared Styles*/
+.text-center{
+    text-align: center;
+}
+
 /*Navbar style*/
 .header{
     display: flex;
@@ -243,4 +248,53 @@ span{
     width: 140px;
     border: none;
     margin-top: 32px;
+}
+
+/*donate part styles*/
+.donate-tittle{
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-detail{
+    font-weight: normal;
+    font-size: 16px;
+    color: #646262;
+    margin-top: -20px;
+}
+.taka{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.takastyle{
+    background-color: #FFFFFF;
+    width: 240px;
+    height: 100px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px;
+    margin-top: 9px;
+}
+.taka200{
+    background-color: #C6E4D6;
+    width: 240px;
+    height: 100px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px;
+    margin-top: 9px;
+}
+.donatenow-field{
+    width: 100%;
+    background-color: #FFFFFF;
+    border: none;
+    height: 55px;
+
+}
+.donenow-btn{
+    margin: 30px 680px;
 }
