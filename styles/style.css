@@ -1,3 +1,7 @@
+body{
+    background-color: #F1F1F3;
+}
+
 /*Font*/
 .open-sans-font {
     font-family: "Open Sans", serif;
@@ -5,7 +9,7 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-  }
+}
   
 /*Navbar style*/
 .header{
@@ -173,4 +177,70 @@
     font-size: 16px;
     font-weight: 700;
     color: white;
+}
+
+/*Recent part styles*/
+.recent{
+    margin: 60px 160px;
+}
+.recent h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.recent p{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -24px;
+    opacity: 70%;
+    color: #0E0E0E;
+}
+.recent-card{
+    display: flex;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    width: 1020px;
+    height: 402px;
+    align-items: center;
+}
+.recent-img{
+    border-radius: 24px;
+    width: 400px;
+    height: 350px;
+}
+.card-tittle{
+    font-size: 32px;
+    font-weight: bold; 
+    word-spacing: .25px;
+}
+.recent-text,.recent-alz{
+    margin-top: -50px;
+}
+.datetime{
+    color: #646262;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+span{
+    margin-left: 10px;
+}
+.recent-text p{
+    color: #646262;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.readmore-btn{
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    height: 50px;
+    width: 140px;
+    border: none;
+    margin-top: 32px;
 }
